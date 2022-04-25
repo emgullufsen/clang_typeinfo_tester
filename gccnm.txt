@@ -1,0 +1,118 @@
+0000000000203c80 d DW.ref.__gxx_personality_v0
+00000000002038e8 d _DYNAMIC
+0000000000203b28 d _GLOBAL_OFFSET_TABLE_
+0000000000002880 t _GLOBAL__sub_I_plugin.cpp
+                 w _ITM_deregisterTMCloneTable
+                 w _ITM_registerTMCloneTable
+                 U _Unwind_Resume@GCC_3.0
+0000000000002837 t __static_initialization_and_destruction_0(int, int)
+0000000000203c78 d __gthread_active
+0000000000002746 t __gthread_trigger()
+0000000000002757 t __gthread_active_p()
+0000000000003095 r __pstl::execution::v1::par
+0000000000003094 r __pstl::execution::v1::seq
+0000000000003097 r __pstl::execution::v1::unseq
+0000000000003096 r __pstl::execution::v1::par_unseq
+0000000000002ae4 W plugin::plugin()
+0000000000002ae4 W plugin::plugin()
+0000000000003000 W plugin::~plugin()
+0000000000002fd2 W plugin::~plugin()
+0000000000002fd2 W plugin::~plugin()
+0000000000003090 r __gnu_cxx::__default_lock_policy
+0000000000002a7c W interface::plugin::plugin()
+0000000000002a7c W interface::plugin::plugin()
+0000000000002ab8 W interface::plugin::~plugin()
+0000000000002a9a W interface::plugin::~plugin()
+0000000000002a9a W interface::plugin::~plugin()
+00000000000027da T interface::type_base::num()
+000000000000290e W plugin::do_stuff(std::shared_ptr<interface::type_base> const&) const
+0000000000002c5c W std::__shared_ptr<interface::type_string, (__gnu_cxx::_Lock_policy)2>::operator bool() const
+0000000000002bcc W std::__shared_ptr<interface::type_int, (__gnu_cxx::_Lock_policy)2>::operator bool() const
+0000000000002c74 W std::__shared_ptr<interface::type_base, (__gnu_cxx::_Lock_policy)2>::get() const
+0000000000002b12 W std::__shared_ptr<interface::type_base, (__gnu_cxx::_Lock_policy)2>::operator bool() const
+                 U std::ostream::operator<<(std::ostream& (*)(std::ostream&))@GLIBCXX_3.4
+0000000000002e28 W std::shared_ptr<interface::type_string>::shared_ptr()
+0000000000002dfa W std::shared_ptr<interface::type_string>::shared_ptr<interface::type_base>(std::shared_ptr<interface::type_base> const&, interface::type_string*)
+0000000000002e28 W std::shared_ptr<interface::type_string>::shared_ptr()
+0000000000002dfa W std::shared_ptr<interface::type_string>::shared_ptr<interface::type_base>(std::shared_ptr<interface::type_base> const&, interface::type_string*)
+00000000000028f2 W std::shared_ptr<interface::type_string>::~shared_ptr()
+00000000000028f2 W std::shared_ptr<interface::type_string>::~shared_ptr()
+0000000000002cb4 W std::shared_ptr<interface::type_int>::shared_ptr()
+0000000000002c86 W std::shared_ptr<interface::type_int>::shared_ptr<interface::type_base>(std::shared_ptr<interface::type_base> const&, interface::type_int*)
+0000000000002cb4 W std::shared_ptr<interface::type_int>::shared_ptr()
+0000000000002c86 W std::shared_ptr<interface::type_int>::shared_ptr<interface::type_base>(std::shared_ptr<interface::type_base> const&, interface::type_int*)
+00000000000028b6 W std::shared_ptr<interface::type_int>::~shared_ptr()
+00000000000028b6 W std::shared_ptr<interface::type_int>::~shared_ptr()
+0000000000002eea W std::__shared_ptr<interface::type_string, (__gnu_cxx::_Lock_policy)2>::__shared_ptr()
+0000000000002eac W std::__shared_ptr<interface::type_string, (__gnu_cxx::_Lock_policy)2>::__shared_ptr<interface::type_base>(std::__shared_ptr<interface::type_base, (__gnu_cxx::_Lock_policy)2> const&, interface::type_string*)
+0000000000002eea W std::__shared_ptr<interface::type_string, (__gnu_cxx::_Lock_policy)2>::__shared_ptr()
+0000000000002eac W std::__shared_ptr<interface::type_string, (__gnu_cxx::_Lock_policy)2>::__shared_ptr<interface::type_base>(std::__shared_ptr<interface::type_base, (__gnu_cxx::_Lock_policy)2> const&, interface::type_string*)
+00000000000028d2 W std::__shared_ptr<interface::type_string, (__gnu_cxx::_Lock_policy)2>::~__shared_ptr()
+00000000000028d2 W std::__shared_ptr<interface::type_string, (__gnu_cxx::_Lock_policy)2>::~__shared_ptr()
+0000000000002e82 W std::__shared_ptr<interface::type_int, (__gnu_cxx::_Lock_policy)2>::__shared_ptr()
+0000000000002e44 W std::__shared_ptr<interface::type_int, (__gnu_cxx::_Lock_policy)2>::__shared_ptr<interface::type_base>(std::__shared_ptr<interface::type_base, (__gnu_cxx::_Lock_policy)2> const&, interface::type_int*)
+0000000000002e82 W std::__shared_ptr<interface::type_int, (__gnu_cxx::_Lock_policy)2>::__shared_ptr()
+0000000000002e44 W std::__shared_ptr<interface::type_int, (__gnu_cxx::_Lock_policy)2>::__shared_ptr<interface::type_base>(std::__shared_ptr<interface::type_base, (__gnu_cxx::_Lock_policy)2> const&, interface::type_int*)
+0000000000002896 W std::__shared_ptr<interface::type_int, (__gnu_cxx::_Lock_policy)2>::~__shared_ptr()
+0000000000002896 W std::__shared_ptr<interface::type_int, (__gnu_cxx::_Lock_policy)2>::~__shared_ptr()
+0000000000002f14 W std::__shared_count<(__gnu_cxx::_Lock_policy)2>::__shared_count(std::__shared_count<(__gnu_cxx::_Lock_policy)2> const&)
+0000000000002f50 W std::__shared_count<(__gnu_cxx::_Lock_policy)2>::__shared_count()
+0000000000002f14 W std::__shared_count<(__gnu_cxx::_Lock_policy)2>::__shared_count(std::__shared_count<(__gnu_cxx::_Lock_policy)2> const&)
+0000000000002f50 W std::__shared_count<(__gnu_cxx::_Lock_policy)2>::__shared_count()
+0000000000002ba2 W std::__shared_count<(__gnu_cxx::_Lock_policy)2>::~__shared_count()
+0000000000002ba2 W std::__shared_count<(__gnu_cxx::_Lock_policy)2>::~__shared_count()
+0000000000002cd0 W std::_Sp_counted_base<(__gnu_cxx::_Lock_policy)2>::_M_release()
+0000000000002f66 W std::_Sp_counted_base<(__gnu_cxx::_Lock_policy)2>::_M_add_ref_copy()
+                 U std::ios_base::Init::Init()@GLIBCXX_3.4
+                 U std::ios_base::Init::~Init()@GLIBCXX_3.4
+0000000000002be3 W std::shared_ptr<interface::type_string> std::dynamic_pointer_cast<interface::type_string, interface::type_base>(std::shared_ptr<interface::type_base> const&)
+0000000000002b29 W std::shared_ptr<interface::type_int> std::dynamic_pointer_cast<interface::type_int, interface::type_base>(std::shared_ptr<interface::type_base> const&)
+                 U std::cout@GLIBCXX_3.4
+                 U std::basic_ostream<char, std::char_traits<char> >& std::endl<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&)@GLIBCXX_3.4
+0000000000203cc0 b std::__ioinit
+                 U std::basic_ostream<char, std::char_traits<char> >& std::operator<<<std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*)@GLIBCXX_3.4
+0000000000203880 V typeinfo for plugin
+00000000002038a8 V typeinfo for interface::type_string
+0000000000203898 V typeinfo for interface::plugin
+00000000002038c0 V typeinfo for interface::type_int
+00000000002038d8 V typeinfo for interface::type_base
+00000000000030d8 V typeinfo name for plugin
+0000000000003100 V typeinfo name for interface::type_string
+00000000000030e0 V typeinfo name for interface::plugin
+0000000000003120 V typeinfo name for interface::type_int
+0000000000003140 V typeinfo name for interface::type_base
+0000000000203830 V vtable for plugin
+                 U vtable for __cxxabiv1::__class_type_info@CXXABI_1.3
+                 U vtable for __cxxabiv1::__si_class_type_info@CXXABI_1.3
+0000000000203858 V vtable for interface::plugin
+0000000000203cb0 b __gthread_active_p()::__gthread_active_once
+0000000000203ca0 b __gthread_active_p()::__gthread_active_mutex
+                 U operator delete(void*, unsigned long)@CXXABI_1.3.9
+                 U operator new(unsigned long)@GLIBCXX_3.4
+0000000000203818 d __CTOR_END__
+0000000000203810 d __CTOR_LIST__
+0000000000203828 d __DTOR_END__
+0000000000203820 d __DTOR_LIST__
+00000000000037c8 r __FRAME_END__
+0000000000003158 r __GNU_EH_FRAME_HDR
+0000000000203c88 d __TMC_END__
+                 U __cxa_atexit@FBSD_1.0
+                 w __cxa_finalize@FBSD_1.0
+                 U __cxa_pure_virtual@CXXABI_1.3
+0000000000003030 t __do_global_ctors_aux
+00000000000026b0 t __do_global_dtors_aux
+0000000000203c70 d __dso_handle
+                 U __dynamic_cast@CXXABI_1.3
+                 U __gxx_personality_v0@CXXABI_1.3
+0000000000003074 T _fini
+00000000000023a8 T _init
+0000000000203c90 b completed.1
+00000000000027e9 T create
+0000000000002640 t deregister_tm_clones
+0000000000002810 T destroy
+0000000000203c98 b dtor_idx.0
+0000000000002740 t frame_dummy
+                 w pthread_mutex_lock@FBSD_1.0
+                 w pthread_mutex_unlock@FBSD_1.0
+                 w pthread_once@FBSD_1.0
+0000000000002670 t register_tm_clones

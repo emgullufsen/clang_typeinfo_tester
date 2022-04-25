@@ -1,0 +1,132 @@
+0000000000007170 d DW.ref.__gxx_personality_v0
+0000000000001c00 r GCC_except_table21
+0000000000001c34 r GCC_except_table24
+0000000000001c4c r GCC_except_table25
+0000000000001c5c r GCC_except_table57
+0000000000001be8 r GCC_except_table7
+0000000000005f58 d _DYNAMIC
+                 w _Jv_RegisterClasses
+                 U _Unwind_Resume
+00000000000039c0 W plugin::plugin()
+0000000000003a40 W plugin::~plugin()
+0000000000003a20 W plugin::~plugin()
+0000000000003a00 W interface::plugin::plugin()
+0000000000003c10 W interface::plugin::~plugin()
+0000000000003c00 W interface::plugin::~plugin()
+0000000000003950 T interface::type_base::num()
+0000000000003a70 W plugin::do_stuff(std::__1::shared_ptr<interface::type_base> const&) const
+0000000000004af0 t std::__1::shared_ptr<interface::type_string>::get() const
+0000000000003e70 t std::__1::shared_ptr<interface::type_string>::operator bool() const
+0000000000004a60 t std::__1::shared_ptr<interface::type_int>::get() const
+0000000000003da0 t std::__1::shared_ptr<interface::type_int>::operator bool() const
+0000000000003f20 t std::__1::shared_ptr<interface::type_base>::get() const
+0000000000003c20 t std::__1::shared_ptr<interface::type_base>::operator bool() const
+00000000000046f0 t std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >::__is_long() const
+0000000000004150 t std::__1::basic_ostream<char, std::__1::char_traits<char> >::sentry::operator bool() const
+0000000000004770 t std::__1::__compressed_pair<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >::__rep, std::__1::allocator<char> >::first() const
+0000000000004460 t std::__1::ostreambuf_iterator<char, std::__1::char_traits<char> >::failed() const
+0000000000004790 t std::__1::__compressed_pair_elem<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >::__rep, 0, false>::__get() const
+0000000000004920 t std::__1::ctype<char>::widen(char) const
+                 U std::__1::locale::use_facet(std::__1::locale::id&) const
+00000000000043d0 t std::__1::ios_base::flags() const
+0000000000004820 t std::__1::ios_base::rdbuf() const
+00000000000044c0 t std::__1::ios_base::width() const
+                 U std::__1::ios_base::getloc() const
+00000000000043f0 t std::__1::basic_ios<char, std::__1::char_traits<char> >::fill() const
+0000000000004800 t std::__1::basic_ios<char, std::__1::char_traits<char> >::rdbuf() const
+0000000000004870 t std::__1::basic_ios<char, std::__1::char_traits<char> >::widen(char) const
+0000000000004ad0 t std::__1::shared_ptr<interface::type_string>::shared_ptr()
+0000000000004a80 W std::__1::shared_ptr<interface::type_string>::shared_ptr<interface::type_base>(std::__1::shared_ptr<interface::type_base> const&, interface::type_string*)
+0000000000003ea0 W std::__1::shared_ptr<interface::type_string>::~shared_ptr()
+00000000000049d0 t std::__1::shared_ptr<interface::type_int>::shared_ptr()
+0000000000004980 W std::__1::shared_ptr<interface::type_int>::shared_ptr<interface::type_base>(std::__1::shared_ptr<interface::type_base> const&, interface::type_int*)
+0000000000003ee0 W std::__1::shared_ptr<interface::type_int>::~shared_ptr()
+0000000000004840 W std::__1::char_traits<char>::eq_int_type(int, int)
+0000000000004860 W std::__1::char_traits<char>::eof()
+0000000000004130 W std::__1::char_traits<char>::length(char const*)
+0000000000004690 t char* std::__1::__to_address<char>(char*)
+00000000000046a0 t std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >::__get_pointer()
+0000000000004720 t std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >::__get_long_pointer()
+0000000000004740 t std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >::__get_short_pointer()
+0000000000004560 t std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >::data()
+                 U std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >::__init(unsigned long, char)
+0000000000004510 t std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >::basic_string(unsigned long, char)
+                 U std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >::~basic_string()
+                 U std::__1::basic_ostream<char, std::__1::char_traits<char> >::put(char)
+                 U std::__1::basic_ostream<char, std::__1::char_traits<char> >::flush()
+                 U std::__1::basic_ostream<char, std::__1::char_traits<char> >::sentry::sentry(std::__1::basic_ostream<char, std::__1::char_traits<char> >&)
+                 U std::__1::basic_ostream<char, std::__1::char_traits<char> >::sentry::~sentry()
+0000000000003c90 t std::__1::basic_ostream<char, std::__1::char_traits<char> >::operator<<(std::__1::basic_ostream<char, std::__1::char_traits<char> >& (*)(std::__1::basic_ostream<char, std::__1::char_traits<char> >&))
+0000000000004a10 t std::__1::__shared_count::__add_shared()
+0000000000004b50 t std::__1::__shared_count::__release_shared()
+00000000000047d0 t std::__1::pointer_traits<char*>::pointer_to(char&)
+00000000000044e0 t std::__1::basic_streambuf<char, std::__1::char_traits<char> >::sputn(char const*, long)
+0000000000004680 t std::__1::__non_trivial_if<true, std::__1::allocator<char> >::__non_trivial_if()
+0000000000004170 t std::__1::ostreambuf_iterator<char, std::__1::char_traits<char> > std::__1::__pad_and_output<char, std::__1::char_traits<char> >(std::__1::ostreambuf_iterator<char, std::__1::char_traits<char> >, char const*, char const*, char const*, std::__1::ios_base&, char)
+00000000000047a0 t std::__1::__compressed_pair<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >::__rep, std::__1::allocator<char> >::first()
+00000000000045c0 W std::__1::__compressed_pair<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >::__rep, std::__1::allocator<char> >::__compressed_pair<std::__1::__default_init_tag, std::__1::__default_init_tag>(std::__1::__default_init_tag&&, std::__1::__default_init_tag&&)
+00000000000049f0 t std::__1::__shared_weak_count::__add_shared()
+                 U std::__1::__shared_weak_count::__release_weak()
+0000000000004b10 t std::__1::__shared_weak_count::__release_shared()
+0000000000004380 t std::__1::ostreambuf_iterator<char, std::__1::char_traits<char> >::ostreambuf_iterator(std::__1::basic_ostream<char, std::__1::char_traits<char> >&)
+0000000000003dd0 t std::__1::shared_ptr<interface::type_string> std::__1::dynamic_pointer_cast<interface::type_string, interface::type_base>(std::__1::shared_ptr<interface::type_base> const&)
+0000000000003d00 t std::__1::shared_ptr<interface::type_int> std::__1::dynamic_pointer_cast<interface::type_int, interface::type_base>(std::__1::shared_ptr<interface::type_base> const&)
+00000000000047c0 t std::__1::__compressed_pair_elem<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >::__rep, 0, false>::__get()
+0000000000004630 t std::__1::__compressed_pair_elem<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >::__rep, 0, false>::__compressed_pair_elem(std::__1::__default_init_tag)
+0000000000004640 t std::__1::__compressed_pair_elem<std::__1::allocator<char>, 1, true>::__compressed_pair_elem(std::__1::__default_init_tag)
+0000000000003f40 W std::__1::basic_ostream<char, std::__1::char_traits<char> >& std::__1::__put_character_sequence<char, std::__1::char_traits<char> >(std::__1::basic_ostream<char, std::__1::char_traits<char> >&, char const*, unsigned long)
+0000000000004ba0 t long std::__1::__libcpp_atomic_refcount_decrement<long>(long&)
+0000000000004a30 t long std::__1::__libcpp_atomic_refcount_increment<long>(long&)
+                 U std::__1::cout
+0000000000003cb0 W std::__1::basic_ostream<char, std::__1::char_traits<char> >& std::__1::endl<char, std::__1::char_traits<char> >(std::__1::basic_ostream<char, std::__1::char_traits<char> >&)
+                 U std::__1::ctype<char>::id
+                 U std::__1::locale::~locale()
+0000000000004620 t std::__1::__default_init_tag&& std::__1::forward<std::__1::__default_init_tag>(std::__1::remove_reference<std::__1::__default_init_tag>::type&)
+                 U std::__1::ios_base::__set_badbit_and_consider_rethrow()
+                 U std::__1::ios_base::clear(unsigned int)
+0000000000004590 t std::__1::ios_base::width(long)
+0000000000004950 t std::__1::ios_base::setstate(unsigned int)
+00000000000047f0 t char* std::__1::addressof<char>(char&)
+0000000000004660 t std::__1::allocator<char>::allocator()
+0000000000004480 t std::__1::basic_ios<char, std::__1::char_traits<char> >::setstate(unsigned int)
+00000000000048f0 t std::__1::ctype<char> const& std::__1::use_facet<std::__1::ctype<char> >(std::__1::locale const&)
+0000000000003c50 W std::__1::basic_ostream<char, std::__1::char_traits<char> >& std::__1::operator<<<std::__1::char_traits<char> >(std::__1::basic_ostream<char, std::__1::char_traits<char> >&, char const*)
+                 U std::terminate()
+0000000000005ed8 V typeinfo for plugin
+0000000000005f40 V typeinfo for interface::type_string
+0000000000005ec8 V typeinfo for interface::plugin
+0000000000005f28 V typeinfo for interface::type_int
+0000000000005f18 V typeinfo for interface::type_base
+0000000000001c6c V typeinfo name for plugin
+0000000000001cf2 V typeinfo name for interface::type_string
+0000000000001c74 V typeinfo name for interface::plugin
+0000000000001cdc V typeinfo name for interface::type_int
+0000000000001cc5 V typeinfo name for interface::type_base
+0000000000005ea0 V vtable for plugin
+                 U vtable for __cxxabiv1::__class_type_info
+                 U vtable for __cxxabiv1::__si_class_type_info
+0000000000005ef0 V vtable for interface::plugin
+                 U operator delete(void*)
+                 U operator new(unsigned long)
+0000000000005e78 d __CTOR_END__
+0000000000005e70 d __CTOR_LIST__
+0000000000005e88 d __DTOR_END__
+0000000000005e80 d __DTOR_LIST__
+0000000000005e90 d __JCR_END__
+0000000000005e90 d __JCR_LIST__
+00000000000044b0 t __clang_call_terminate
+                 U __cxa_begin_catch
+                 U __cxa_end_catch
+                 w __cxa_finalize
+                 U __cxa_pure_virtual
+0000000000004bd0 t __do_global_ctors_aux
+00000000000038d0 t __do_global_dtors_aux
+0000000000007168 d __dso_handle
+                 U __dynamic_cast
+                 U __gxx_personality_v0
+0000000000004c0c T _fini
+0000000000004bfc T _init
+0000000000003960 T create
+0000000000003990 T destroy
+0000000000003920 t register_classes
+                 U strlen
