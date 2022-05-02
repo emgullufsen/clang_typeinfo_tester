@@ -1,0 +1,15 @@
+/home/ricky/code/clang_typeinfo_tester/build_clang/CMakeFiles/edit_cache.dir
+/home/ricky/code/clang_typeinfo_tester/build_clang/CMakeFiles/rebuild_cache.dir
+/home/ricky/code/clang_typeinfo_tester/build_clang/core/CMakeFiles/test-core.dir
+/home/ricky/code/clang_typeinfo_tester/build_clang/core/CMakeFiles/edit_cache.dir
+/home/ricky/code/clang_typeinfo_tester/build_clang/core/CMakeFiles/rebuild_cache.dir
+/home/ricky/code/clang_typeinfo_tester/build_clang/interface/CMakeFiles/edit_cache.dir
+/home/ricky/code/clang_typeinfo_tester/build_clang/interface/CMakeFiles/rebuild_cache.dir
+/home/ricky/code/clang_typeinfo_tester/build_clang/shared_types_impl/CMakeFiles/shared-types-impl.dir
+/home/ricky/code/clang_typeinfo_tester/build_clang/shared_types_impl/CMakeFiles/edit_cache.dir
+/home/ricky/code/clang_typeinfo_tester/build_clang/shared_types_impl/CMakeFiles/rebuild_cache.dir
+/home/ricky/code/clang_typeinfo_tester/build_clang/plugins/CMakeFiles/edit_cache.dir
+/home/ricky/code/clang_typeinfo_tester/build_clang/plugins/CMakeFiles/rebuild_cache.dir
+/home/ricky/code/clang_typeinfo_tester/build_clang/plugins/plugin_one/CMakeFiles/plugin-one.dir
+/home/ricky/code/clang_typeinfo_tester/build_clang/plugins/plugin_one/CMakeFiles/edit_cache.dir
+/home/ricky/code/clang_typeinfo_tester/build_clang/plugins/plugin_one/CMakeFiles/rebuild_cache.dir

@@ -12,3 +12,14 @@ target_sources(
     PRIVATE
         plugin.cpp
 )
+
+target_link_libraries(
+    ${TARGET}
+    PUBLIC
+    	shared-types-impl
+)
+
+add_dependencies(
+    ${TARGET}
+    shared-types-impl
+   )

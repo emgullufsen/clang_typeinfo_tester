@@ -1,0 +1,1 @@
+/usr/local/bin/g++ CMakeFiles/test-core.dir/main.cpp.o -o test-core  -ldl 

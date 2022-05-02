@@ -1,0 +1,109 @@
+> diff -ruN clang_test_dist/CMakeLists.txt clang_test_dist_m_m/CMakeLists.txt
+> --- clang_test_dist/CMakeLists.txt      2022-04-19 13:38:59.000000000 -0700
+> +++ clang_test_dist_m_m/CMakeLists.txt  2022-04-25 12:51:03.448582000 -0700
+> @@ -5,4 +5,5 @@
+>
+> add_subdirectory(core)
+> add_subdirectory(interface)
+> +add_subdirectory(shared_types_impl)
+> add_subdirectory(plugins)
+> diff -ruN clang_test_dist/core/CMakeLists.txt
+> clang_test_dist_m_m/core/CMakeLists.txt
+> --- clang_test_dist/core/CMakeLists.txt 2022-04-19 13:38:59.000000000 -0700
+> +++ clang_test_dist_m_m/core/CMakeLists.txt     2022-04-25 13:18:52.539921000
+> -0700
+> @@ -19,9 +19,12 @@
+>     PRIVATE
+>         test-interface
+>         dl
+> +    PUBLIC
+> +       shared-types-impl
+> )
+>
+> add_dependencies(
+>     ${TARGET}
+> +    shared-types-impl
+>     plugin-one
+> )
+> diff -ruN clang_test_dist/interface/types.hpp
+> clang_test_dist_m_m/interface/types.hpp
+> --- clang_test_dist/interface/types.hpp 2022-04-19 13:38:59.000000000 -0700
+> +++ clang_test_dist_m_m/interface/types.hpp     2022-04-25 14:48:52.534159000
+> -0700
+> @@ -7,18 +7,20 @@
+>
+>     struct type_base
+>     {
+> -        virtual ~type_base() = default;
+> +        virtual ~type_base();
+>     };
+>
+>     struct type_int :
+>         type_base
+>     {
+> +        virtual ~type_int();
+>         int data;
+>     };
+>
+>     struct type_string :
+>         type_base
+>     {
+> +        virtual ~type_string();
+>         std::string data;
+>     };
+>
+> diff -ruN clang_test_dist/plugins/plugin_one/CMakeLists.txt
+> clang_test_dist_m_m/plugins/plugin_one/CMakeLists.txt
+> --- clang_test_dist/plugins/plugin_one/CMakeLists.txt   2022-04-19
+> 13:38:59.000000000 -0700
+> +++ clang_test_dist_m_m/plugins/plugin_one/CMakeLists.txt       2022-04-25
+> 13:19:20.188778000 -0700
+> @@ -12,3 +12,14 @@
+>     PRIVATE
+>         plugin.cpp
+> )
+> +
+> +target_link_libraries(
+> +    ${TARGET}
+> +    PUBLIC
+> +        shared-types-impl
+> +)
+> +
+> +add_dependencies(
+> +    ${TARGET}
+> +    shared-types-impl
+> +)
+> diff -ruN clang_test_dist/shared_types_impl/CMakeLists.txt
+> clang_test_dist_m_m/shared_types_impl/CMakeLists.txt
+> --- clang_test_dist/shared_types_impl/CMakeLists.txt    1969-12-31
+> 16:00:00.000000000 -0800
+> +++ clang_test_dist_m_m/shared_types_impl/CMakeLists.txt        2022-04-25
+> 12:55:29.760985000 -0700
+> @@ -0,0 +1,15 @@
+> +set(TARGET shared-types-impl)
+> +add_library(${TARGET} SHARED)
+> +
+> +target_compile_features(
+> +    ${TARGET}
+> +    PRIVATE
+> +        cxx_std_20
+> +)
+> +
+> +target_sources(
+> +    ${TARGET}
+> +    PRIVATE
+> +        types_impl.cpp
+> +)
+> +
+> diff -ruN clang_test_dist/shared_types_impl/types_impl.cpp
+> clang_test_dist_m_m/shared_types_impl/types_impl.cpp
+> --- clang_test_dist/shared_types_impl/types_impl.cpp    1969-12-31
+> 16:00:00.000000000 -0800
+> +++ clang_test_dist_m_m/shared_types_impl/types_impl.cpp        2022-04-25
+> 14:49:23.599440000 -0700
+> @@ -0,0 +1,5 @@
+> +#include "../interface/types.hpp"
+> +
+> +interface::type_base::~type_base()     {}
+> +interface::type_int::~type_int()       {}
+> +interface::type_string::~type_string() {}

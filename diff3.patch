@@ -1,0 +1,109 @@
+  -ruN clang_test_dist/CMakeLists.txt clang_test_dist_m_m/CMakeLists.txt
+  clang_test_dist/CMakeLists.txt 2022-04-19 13:38:59.000000000 -0700
+  clang_test_dist_m_m/CMakeLists.txt 2022-04-25 12:51:03.448582000 -0700
+  -5,4 +5,5 @@
+ 
+ 
+ 
+ 
+ 
+  -ruN clang_test_dist/core/CMakeLists.txt
+ 
+  clang_test_dist/core/CMakeLists.txt 2022-04-19 13:38:59.000000000 -0700
+  clang_test_dist_m_m/core/CMakeLists.txt 2022-04-25 13:18:52.539921000
+ 
+  -19,9 +19,12 @@
+ 
+ 
+ 
+  PUBLIC
+  shared-types-impl
+ 
+ 
+ 
+ 
+  shared-types-impl
+ 
+ 
+  -ruN clang_test_dist/interface/types.hpp
+ 
+  clang_test_dist/interface/types.hpp 2022-04-19 13:38:59.000000000 -0700
+  clang_test_dist_m_m/interface/types.hpp 2022-04-25 14:48:52.534159000
+ 
+  -7,18 +7,20 @@
+ 
+  type_base
+ 
+  virtual ~type_base() = default;
+  virtual ~type_base();
+ 
+ 
+  type_int :
+ 
+ 
+  virtual ~type_int();
+  data;
+ 
+ 
+  type_string :
+ 
+ 
+  virtual ~type_string();
+  data;
+ 
+ 
+  -ruN clang_test_dist/plugins/plugin_one/CMakeLists.txt
+ 
+  clang_test_dist/plugins/plugin_one/CMakeLists.txt 2022-04-19
+  -0700
+  clang_test_dist_m_m/plugins/plugin_one/CMakeLists.txt 2022-04-25
+  -0700
+  -12,3 +12,14 @@
+ 
+ 
+ 
+ 
+ 
+  ${TARGET}
+  PUBLIC
+  shared-types-impl
+ 
+ 
+ 
+  ${TARGET}
+  shared-types-impl
+ 
+  -ruN clang_test_dist/shared_types_impl/CMakeLists.txt
+ 
+  clang_test_dist/shared_types_impl/CMakeLists.txt 1969-12-31
+  -0800
+  clang_test_dist_m_m/shared_types_impl/CMakeLists.txt 2022-04-25
+  -0700
+  -0,0 +1,15 @@
+  shared-types-impl)
+  SHARED)
+ 
+ 
+  ${TARGET}
+  PRIVATE
+  cxx_std_20
+ 
+ 
+ 
+  ${TARGET}
+  PRIVATE
+  types_impl.cpp
+ 
+ 
+  -ruN clang_test_dist/shared_types_impl/types_impl.cpp
+ 
+  clang_test_dist/shared_types_impl/types_impl.cpp 1969-12-31
+  -0800
+  clang_test_dist_m_m/shared_types_impl/types_impl.cpp 2022-04-25
+  -0700
+  -0,0 +1,5 @@
+  "../interface/types.hpp"
+ 
+  {}
+  {}
+  {}

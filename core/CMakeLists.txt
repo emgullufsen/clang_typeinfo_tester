@@ -19,9 +19,12 @@ target_link_libraries(
     PRIVATE
         test-interface
         dl
+    PUBLIC
+        shared-types-impl
 )
 
 add_dependencies(
     ${TARGET}
+    shared-types-impl
     plugin-one
 )
