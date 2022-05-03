@@ -1,1 +1,1 @@
-/usr/local/bin/g++ -fPIC -shared -Wl,-soname,libplugin-one.so -o libplugin-one.so CMakeFiles/plugin-one.dir/plugin.cpp.o  -Wl,-rpath,/home/ricky/code/clang_typeinfo_tester/build_clang/shared_types_impl ../../shared_types_impl/libshared-types-impl.so 
+/usr/bin/clang++ -fPIC -shared -Wl,-soname,libplugin-one.so -o libplugin-one.so CMakeFiles/plugin-one.dir/plugin.cpp.o  -Wl,-rpath,/home/ricky/code/clang_typeinfo_tester/build_clang/shared_types_impl ../../shared_types_impl/libshared-types-impl.so 

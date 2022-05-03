@@ -73,15 +73,15 @@ core/CMakeFiles/test-core.dir/main.cpp.o: core/CMakeFiles/test-core.dir/flags.ma
 core/CMakeFiles/test-core.dir/main.cpp.o: ../core/main.cpp
 core/CMakeFiles/test-core.dir/main.cpp.o: core/CMakeFiles/test-core.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ricky/code/clang_typeinfo_tester/build_clang/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object core/CMakeFiles/test-core.dir/main.cpp.o"
-	cd /home/ricky/code/clang_typeinfo_tester/build_clang/core && /usr/local/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT core/CMakeFiles/test-core.dir/main.cpp.o -MF CMakeFiles/test-core.dir/main.cpp.o.d -o CMakeFiles/test-core.dir/main.cpp.o -c /home/ricky/code/clang_typeinfo_tester/core/main.cpp
+	cd /home/ricky/code/clang_typeinfo_tester/build_clang/core && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT core/CMakeFiles/test-core.dir/main.cpp.o -MF CMakeFiles/test-core.dir/main.cpp.o.d -o CMakeFiles/test-core.dir/main.cpp.o -c /home/ricky/code/clang_typeinfo_tester/core/main.cpp
 
 core/CMakeFiles/test-core.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test-core.dir/main.cpp.i"
-	cd /home/ricky/code/clang_typeinfo_tester/build_clang/core && /usr/local/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ricky/code/clang_typeinfo_tester/core/main.cpp > CMakeFiles/test-core.dir/main.cpp.i
+	cd /home/ricky/code/clang_typeinfo_tester/build_clang/core && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ricky/code/clang_typeinfo_tester/core/main.cpp > CMakeFiles/test-core.dir/main.cpp.i
 
 core/CMakeFiles/test-core.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test-core.dir/main.cpp.s"
-	cd /home/ricky/code/clang_typeinfo_tester/build_clang/core && /usr/local/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ricky/code/clang_typeinfo_tester/core/main.cpp -o CMakeFiles/test-core.dir/main.cpp.s
+	cd /home/ricky/code/clang_typeinfo_tester/build_clang/core && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ricky/code/clang_typeinfo_tester/core/main.cpp -o CMakeFiles/test-core.dir/main.cpp.s
 
 # Object files for target test-core
 test__core_OBJECTS = \

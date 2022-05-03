@@ -1,1 +1,0 @@
-/usr/local/bin/g++ -fPIC -shared -Wl,-soname,libplugin-one.so -o libplugin-one.so CMakeFiles/plugin-one.dir/plugin.cpp.o 

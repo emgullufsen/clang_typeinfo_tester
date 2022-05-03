@@ -73,15 +73,15 @@ shared_types_impl/CMakeFiles/shared-types-impl.dir/types_impl.cpp.o: shared_type
 shared_types_impl/CMakeFiles/shared-types-impl.dir/types_impl.cpp.o: ../shared_types_impl/types_impl.cpp
 shared_types_impl/CMakeFiles/shared-types-impl.dir/types_impl.cpp.o: shared_types_impl/CMakeFiles/shared-types-impl.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ricky/code/clang_typeinfo_tester/build_clang/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object shared_types_impl/CMakeFiles/shared-types-impl.dir/types_impl.cpp.o"
-	cd /home/ricky/code/clang_typeinfo_tester/build_clang/shared_types_impl && /usr/local/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT shared_types_impl/CMakeFiles/shared-types-impl.dir/types_impl.cpp.o -MF CMakeFiles/shared-types-impl.dir/types_impl.cpp.o.d -o CMakeFiles/shared-types-impl.dir/types_impl.cpp.o -c /home/ricky/code/clang_typeinfo_tester/shared_types_impl/types_impl.cpp
+	cd /home/ricky/code/clang_typeinfo_tester/build_clang/shared_types_impl && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT shared_types_impl/CMakeFiles/shared-types-impl.dir/types_impl.cpp.o -MF CMakeFiles/shared-types-impl.dir/types_impl.cpp.o.d -o CMakeFiles/shared-types-impl.dir/types_impl.cpp.o -c /home/ricky/code/clang_typeinfo_tester/shared_types_impl/types_impl.cpp
 
 shared_types_impl/CMakeFiles/shared-types-impl.dir/types_impl.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/shared-types-impl.dir/types_impl.cpp.i"
-	cd /home/ricky/code/clang_typeinfo_tester/build_clang/shared_types_impl && /usr/local/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ricky/code/clang_typeinfo_tester/shared_types_impl/types_impl.cpp > CMakeFiles/shared-types-impl.dir/types_impl.cpp.i
+	cd /home/ricky/code/clang_typeinfo_tester/build_clang/shared_types_impl && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ricky/code/clang_typeinfo_tester/shared_types_impl/types_impl.cpp > CMakeFiles/shared-types-impl.dir/types_impl.cpp.i
 
 shared_types_impl/CMakeFiles/shared-types-impl.dir/types_impl.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/shared-types-impl.dir/types_impl.cpp.s"
-	cd /home/ricky/code/clang_typeinfo_tester/build_clang/shared_types_impl && /usr/local/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ricky/code/clang_typeinfo_tester/shared_types_impl/types_impl.cpp -o CMakeFiles/shared-types-impl.dir/types_impl.cpp.s
+	cd /home/ricky/code/clang_typeinfo_tester/build_clang/shared_types_impl && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ricky/code/clang_typeinfo_tester/shared_types_impl/types_impl.cpp -o CMakeFiles/shared-types-impl.dir/types_impl.cpp.s
 
 # Object files for target shared-types-impl
 shared__types__impl_OBJECTS = \

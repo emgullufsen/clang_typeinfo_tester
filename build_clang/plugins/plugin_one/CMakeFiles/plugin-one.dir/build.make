@@ -73,15 +73,15 @@ plugins/plugin_one/CMakeFiles/plugin-one.dir/plugin.cpp.o: plugins/plugin_one/CM
 plugins/plugin_one/CMakeFiles/plugin-one.dir/plugin.cpp.o: ../plugins/plugin_one/plugin.cpp
 plugins/plugin_one/CMakeFiles/plugin-one.dir/plugin.cpp.o: plugins/plugin_one/CMakeFiles/plugin-one.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ricky/code/clang_typeinfo_tester/build_clang/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object plugins/plugin_one/CMakeFiles/plugin-one.dir/plugin.cpp.o"
-	cd /home/ricky/code/clang_typeinfo_tester/build_clang/plugins/plugin_one && /usr/local/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT plugins/plugin_one/CMakeFiles/plugin-one.dir/plugin.cpp.o -MF CMakeFiles/plugin-one.dir/plugin.cpp.o.d -o CMakeFiles/plugin-one.dir/plugin.cpp.o -c /home/ricky/code/clang_typeinfo_tester/plugins/plugin_one/plugin.cpp
+	cd /home/ricky/code/clang_typeinfo_tester/build_clang/plugins/plugin_one && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT plugins/plugin_one/CMakeFiles/plugin-one.dir/plugin.cpp.o -MF CMakeFiles/plugin-one.dir/plugin.cpp.o.d -o CMakeFiles/plugin-one.dir/plugin.cpp.o -c /home/ricky/code/clang_typeinfo_tester/plugins/plugin_one/plugin.cpp
 
 plugins/plugin_one/CMakeFiles/plugin-one.dir/plugin.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/plugin-one.dir/plugin.cpp.i"
-	cd /home/ricky/code/clang_typeinfo_tester/build_clang/plugins/plugin_one && /usr/local/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ricky/code/clang_typeinfo_tester/plugins/plugin_one/plugin.cpp > CMakeFiles/plugin-one.dir/plugin.cpp.i
+	cd /home/ricky/code/clang_typeinfo_tester/build_clang/plugins/plugin_one && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ricky/code/clang_typeinfo_tester/plugins/plugin_one/plugin.cpp > CMakeFiles/plugin-one.dir/plugin.cpp.i
 
 plugins/plugin_one/CMakeFiles/plugin-one.dir/plugin.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/plugin-one.dir/plugin.cpp.s"
-	cd /home/ricky/code/clang_typeinfo_tester/build_clang/plugins/plugin_one && /usr/local/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ricky/code/clang_typeinfo_tester/plugins/plugin_one/plugin.cpp -o CMakeFiles/plugin-one.dir/plugin.cpp.s
+	cd /home/ricky/code/clang_typeinfo_tester/build_clang/plugins/plugin_one && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ricky/code/clang_typeinfo_tester/plugins/plugin_one/plugin.cpp -o CMakeFiles/plugin-one.dir/plugin.cpp.s
 
 # Object files for target plugin-one
 plugin__one_OBJECTS = \

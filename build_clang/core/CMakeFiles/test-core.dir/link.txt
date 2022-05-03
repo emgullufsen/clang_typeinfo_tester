@@ -1,1 +1,1 @@
-/usr/local/bin/g++ CMakeFiles/test-core.dir/main.cpp.o -o test-core  -Wl,-rpath,/home/ricky/code/clang_typeinfo_tester/build_clang/shared_types_impl -ldl ../shared_types_impl/libshared-types-impl.so 
+/usr/bin/clang++ CMakeFiles/test-core.dir/main.cpp.o -o test-core  -Wl,-rpath,/home/ricky/code/clang_typeinfo_tester/build_clang/shared_types_impl -ldl ../shared_types_impl/libshared-types-impl.so 
